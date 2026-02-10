@@ -15,9 +15,11 @@ For our class we will use [codewith.mu](https://codewith.mu/) or [VS Code](https
 
 * codewith.mu can be installed on school or personal computers.
 
-* VS Code is used in industry and can be installed on your personal device, but not the school computers.
+* VS Code is used in industry. It can be installed on your personal device and should be already installed on the school computers by IT.
 
-If you are using VS Code, you will need to install the Python extension from the extension marketplace for the best experience
+VS Code is the preference for this class. When using VS Code, make sure to install the Python extension from the extension marketplace for the best experience
+
+If you have any experience with coding already and have a preferred IDE, feel free to continue using that.
 
 ## Our First Python Program
 
