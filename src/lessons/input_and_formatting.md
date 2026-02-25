@@ -74,8 +74,13 @@ If you want to have multiline output in a single print statement, you can add li
 ### Examples
 
 ```python
-output = "hello \\n my name is Marie"
+output = "hello \nmy name is Marie."
 print(output)
+```
+The above will output
+```
+hello
+my name is Marie.
 ```
 
 ```python
@@ -87,7 +92,14 @@ is
 Marie"""
 print(output)
 ```
-
+The above will output
+```
+hello
+my
+name
+is
+Marie
+```
 
 ## Formatting Numbers
 
@@ -98,7 +110,27 @@ To create an f-string, all you need to do is place a lowercase f or uppercase F 
 
 ```python
 username = "Marie"
-print(f"Hello {username}")
+print(f"Hello {username}!")
+```
+The above will output
+```
+Hello Marie!
+```
+
+We can also use string literals and escaped characters in f-strings.
+```python
+output = f"hello \nmy name is Marie."
+print(output)
+```
+
+```python
+output = f"""
+hello
+my
+name
+is
+Marie"""
+print(output)
 ```
 
 The f before the first quotation mark tells python that what follows is a format string.
@@ -169,10 +201,8 @@ print(output)
 The above will output
 
 ```
-
-Sales Tax Rate: 6.50%
-Subtotal: $ 1,599.68
-Sales Tax: $   103.98
-Total: $ 1,703.66
-
+Sales Tax Rate:  6.50%
+Subtotal:       $ 1,599.68
+Sales Tax:      $   103.98
+Total:          $ 1,703.66
 ```
