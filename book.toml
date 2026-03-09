@@ -2,3 +2,6 @@
 title = "ICS3U1 Lesson Notes"
 authors = ["Timbits"]
 language = "en"
+
+[output.html]
+sidebar-header-nav = false
