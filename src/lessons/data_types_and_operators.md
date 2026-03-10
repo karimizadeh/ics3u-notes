@@ -1,4 +1,6 @@
-# Python Data Types
+# Programming Basics
+
+## Python Data Types
 
 In python, there are three main categories of data types we will work with. Those are numbers, text (strings), and booleans.
 Numbers are amounts and strings consists of letters and words.
