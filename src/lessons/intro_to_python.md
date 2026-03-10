@@ -1,4 +1,6 @@
-# Introduction to Python
+# Programming Basics
+
+## Introduction to Python
 
 Python is an easy language to learn and use due to its simplified syntax and natural language flow.
 It has all the capabilities for the type of software development thats driving the world these days, such as machine learning, robotics, AI, and data science.
