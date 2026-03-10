@@ -1,4 +1,6 @@
-# Input
+# Programming Basics
+
+## Input
 
 The input function is a way for users to interact with a program at runtime.
 A string can be placed inside the parentheses which will be printed before the program takes input.
