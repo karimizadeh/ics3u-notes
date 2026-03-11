@@ -54,7 +54,7 @@ var = "Hi, my name is 'Marie'."
 
 ## Python Numbers
 
-Numbers in python either start with a number digit (0-9), a dot (which represents a decimal point), or a hypen (-) used as a negative sign for negative numbers.
+Numbers in python either start with a number digit (0-9), a dot (which represents a decimal point), or a hyphen (-) used as a negative sign for negative numbers.
 A number can contain only one decimal point, CANNOT contain letters, spaces, $ (currency signs), or anything that isn't part of a regular number.
 In the computer world, the data type considered numbers are numbers you can add, subtract, multiple, and divide.
 Python also differentiates between whole numbers (integers) and numbers that contain a decimal point (floats).
@@ -83,7 +83,7 @@ print(10 < 9) # False
 
 Some values may be valid as multiple different data types.
 There are scenarios where you may need to convert a variable from one type into another without changing its value.
-Casting allows this, as long as the value being casted can be represented properly in the target data type.
+Casting allows this, as long as the value being cast can be represented properly in the target data type.
 
 When casting a float into an int, the value will not be rounded and the decimal portion will be discarded.
 
@@ -91,9 +91,9 @@ When casting a float into an int, the value will not be rounded and the decimal 
 j = 1 # original datatype is an integer
 k = 2.8 # original datatype is a float
 
-w = float(j) # casted value is now: 1.0
-q = int(k) # casted value is now: 2
-l = str(k) # casted value is now: '2.8'
+w = float(j) # cast value is now: 1.0
+q = int(k) # cast value is now: 2
+l = str(k) # cast value is now: '2.8'
 
 print(w, q, l)
 print(type(w)) # float
@@ -194,15 +194,11 @@ To use those additional math functions in our program, add the following line to
 | `math.pow(x, y)` | Raises x to the power of y. This is the same as the `**` operator |
 | `math.pi` | Returns the mathematical constant pi (3.14159265...) |
 
-
-
 ### Practice
 
 [Practice #1](https://codecheck.it/files/21082917309kepalrlooxz5vnpqispzwh0g)
 
 [Practice #2](https://codecheck.it/files/210829181323aexx8netd7fcfia4pm8aq3k)
-
-
 
 ## Errors
 

@@ -70,9 +70,9 @@ Parameters are local only to that function, meaning it only exists inside the fu
 It is recommended to name your parameters something different from a variable outside the function.
 If you have a variable named `x` outside the function and another variable named `x` inside the function, any changes made to `x` inside the function won't affect the outer `x` variable.
 This is called local scope.
-Local scope means that the scope of the variables existance and influence stays inside the function and does not extend further.
+Local scope means that the scope of the variables existence and influence stays inside the function and does not extend further.
 Variables created and modified inside a function literally cease to exist the moment the function stops running.
-Variables defined outside the function are unaffected by the going-ons inside the function.
+Variables defined outside the function are unaffected by the code inside the function.
 
 ## Number of Arguments
 
@@ -124,7 +124,7 @@ print(my_function(10))
 
 ## Recursion - Advanced
 
-Recusion is a common mathematical and programming concept.
+Recursion is a common mathematical and programming concept.
 It means that a function calls itself.
 This has the benefit of allowing you to loop through results over and over to reach a final result.
 Developers should be very careful with recursion as it can be quite easy to slip into writing a function which never terminates or uses too much memory/power.

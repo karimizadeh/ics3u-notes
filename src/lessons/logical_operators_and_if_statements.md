@@ -10,14 +10,14 @@ This lesson will be focusing on if-statements
 ## Expression
 
 An expression is a combination of values, variables, operators, and calls to functions.
-Expressions need to be evauluated.
+Expressions need to be evaluated.
 If you were to print an expression, the Python interpreter will evaluate the expression and display the results.
 
 ### Evaluation of an Expression
 
-The evualuation of an expression produces a value.
+The evaluation of an expression produces a value.
 A value all by itself is a simple expression, and so is a variable.
-Evaluationg a variable gives the value that the variable refers to.
+Evaluating a variable gives the value that the variable refers to.
 
 ## Comparison Operators
 
@@ -120,7 +120,7 @@ else:
 
 The `elif` keyword is python's way of saying "if the previous conditions were not true, then try this condition."
 When `if...else` is not enough, `elif` can be used, which stands for "else if."
-An if statement can include any number of `elif` conditions and doesnt have to have an `else` at the end.
+An if statement can include any number of `elif` conditions and doesn't have to have an `else` at the end.
 
 ### Examples
 

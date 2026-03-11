@@ -3,7 +3,7 @@
 ## Introduction to Python
 
 Python is an easy language to learn and use due to its simplified syntax and natural language flow.
-It has all the capabilities for the type of software development thats driving the world these days, such as machine learning, robotics, AI, and data science.
+It has all the capabilities for the type of software development that is driving the world these days, such as machine learning, robotics, AI, and data science.
 
 ## Code/Coding
 
@@ -15,9 +15,9 @@ There isn't a right or wrong or a best or worst one.
 
 For our class we will use [codewith.mu](https://codewith.mu/) or [VS Code](https://code.visualstudio.com/download) with the Python extension to code in Python.
 
-* codewith.mu can be installed on school or personal computers.
+- codewith.mu can be installed on school or personal computers.
 
-* VS Code is used in industry. It can be installed on your personal device and should be already installed on the school computers by IT.
+- VS Code is used in industry. It can be installed on your personal device and should be already installed on the school computers by IT.
 
 VS Code is the preference for this class. When using VS Code, make sure to install the Python extension from the extension marketplace for the best experience
 
@@ -66,7 +66,7 @@ Other languages often use `//` for single-line comments and `/* comment here */`
 
 Many programming languages focus on things that the computer does and how it does them rather than on the way humans think and work.
 This makes most languages hard to learn for most people.
-The one feature that really makes python different from other languages is that it uses colons alongside indentations and whitespace (tabs and spaces) rather than parantheses and curly braces to indicate blocks of code.
+The one feature that really makes python different from other languages is that it uses colons alongside indentations and whitespace (tabs and spaces) rather than parentheses and curly braces to indicate blocks of code.
 Python also doesn't require semi-colons at the end of lines.
 Because python doesn't use special characters to indicate the beginning or end of a code block, indentations are required and have a considerable effect on how the code runs.
 As a result of using indentation to create code blocks, it is easier to read chunks of code and see whats going on.
@@ -92,7 +92,7 @@ print("...") # no semi-colons at the end of lines. This line is outside the code
 ### Summary
 
 - new line means the command is completed, no need for semi-colon
-- Python relies on indentation and whitespace, there no need parantheses { }
+- Python relies on indentation and whitespace, there no need parentheses { }
 - Python is more human readable than other languages
 
 ## Python Variables

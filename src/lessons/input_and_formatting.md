@@ -34,10 +34,9 @@ print(type(y)) # int
 
 [Practice #1](https://codecheck.it/files/21090422277xnacr7mu90si43xnsgp5nf1j)
 
-
 ## Escape Characters
 
-An escape character is a character in a sring with a backslash before it.
+An escape character is a character in a string with a backslash before it.
 Certain escape characters have special meanings, but many just tell python the character is a literal and to treat it as pure text.
 
 Commonly used escape characters include:
@@ -54,7 +53,9 @@ Commonly used escape characters include:
 ```python
 print("Ms.\nMarie says \"You will get 90\\100\"\tI'm hoping that she\'s right!")
 ```
+
 The above will output
+
 ```
 Ms.
 Marie says "You will get 90\100"	I'm hoping that she's right!
@@ -79,7 +80,9 @@ If you want to have multiline output in a single print statement, you can add li
 output = "hello \nmy name is Marie."
 print(output)
 ```
+
 The above will output
+
 ```
 hello
 my name is Marie.
@@ -94,7 +97,9 @@ is
 Marie"""
 print(output)
 ```
+
 The above will output
+
 ```
 hello
 my
@@ -114,16 +119,20 @@ To create an f-string, all you need to do is place a lowercase f or uppercase F 
 username = "Marie"
 print(f"Hello {username}!")
 ```
+
 The above will output
+
 ```
 Hello Marie!
 ```
+
 The f before the first quotation mark tells python that what follows is a format string.
 Inside the quotation marks, the text, called the literal, is displayed literally (exactly as typed in the f-string).
 Anything in curly braces is an expression in the f-string, a placeholder or template for what will appear when the code executes.
 Inside the curly braces, you can have any python expression (a formula to perform some calculation, a variable name, or a combination of the two).
 
 We can also use string literals and escaped characters in f-strings.
+
 ```python
 output = f"hello \nmy name is Marie."
 print(output)
@@ -171,8 +180,6 @@ print(f"Sales Tax Rate: {sales_tax_rate:.2%}") # Sales Tax Rate: 6.50%
 ```
 
 The `%` after the colon formats the decimal number as a percentage, and the `.2` locks the percentage to 2 decimals.
-
-
 
 ## Formatting width and alignment
 
