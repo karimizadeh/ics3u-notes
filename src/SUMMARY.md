@@ -8,3 +8,4 @@
 [](lessons/logical_operators_and_if_statements.md)
 [](lessons/loops.md)
 [](lessons/functions.md)
+[](lessons/collections.md)
